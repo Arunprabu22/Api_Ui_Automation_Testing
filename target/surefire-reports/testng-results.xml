@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-10T20:13:37 IST" name="Parallel Suite" finished-at="2025-09-10T20:14:13 IST" duration-ms="36442">
+    <groups>
+    </groups>
+    <test started-at="2025-09-10T20:13:37 IST" name="API and UI Tests" finished-at="2025-09-10T20:14:13 IST" duration-ms="36442">
+      <class name="com.example.tests.api.ApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:39 IST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUsers_status200()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getUsers_status200" finished-at="2025-09-10T20:13:43 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers_status200 -->
+        <test-method signature="getPostById_1()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getPostById_1" finished-at="2025-09-10T20:13:49 IST" duration-ms="10183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostById_1 -->
+        <test-method signature="getTodos_status200()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getTodos_status200" finished-at="2025-09-10T20:13:43 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTodos_status200 -->
+        <test-method signature="createPost_returns201()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="createPost_returns201" finished-at="2025-09-10T20:13:44 IST" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost_returns201 -->
+        <test-method signature="getComments_post1()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getComments_post1" finished-at="2025-09-10T20:13:45 IST" duration-ms="6176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getComments_post1 -->
+        <test-method signature="getAlbums_status200()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getAlbums_status200" finished-at="2025-09-10T20:13:43 IST" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlbums_status200 -->
+        <test-method signature="checkPostTitleNotEmpty()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="checkPostTitleNotEmpty" finished-at="2025-09-10T20:13:49 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPostTitleNotEmpty -->
+        <test-method signature="invalidEndpoint_404()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="invalidEndpoint_404" finished-at="2025-09-10T20:13:44 IST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEndpoint_404 -->
+        <test-method signature="getPosts_status200()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getPosts_status200" finished-at="2025-09-10T20:13:43 IST" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPosts_status200 -->
+        <test-method signature="getUserById_1()[pri:0, instance:com.example.tests.api.ApiTests@6ca8564a]" started-at="2025-09-10T20:13:39 IST" name="getUserById_1" finished-at="2025-09-10T20:13:49 IST" duration-ms="10182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById_1 -->
+      </class> <!-- com.example.tests.api.ApiTests -->
+      <class name="com.example.tests.ui.UiTests">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="loadConfig" finished-at="2025-09-10T20:13:37 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:37 IST" name="setup" finished-at="2025-09-10T20:13:47 IST" duration-ms="9440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openYahoo()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openYahoo" finished-at="2025-09-10T20:14:01 IST" duration-ms="14098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openYahoo -->
+        <test-method signature="navigateToAboutMozilla()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="navigateToAboutMozilla" finished-at="2025-09-10T20:13:52 IST" duration-ms="5626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAboutMozilla -->
+        <test-method signature="openBing()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openBing" finished-at="2025-09-10T20:14:06 IST" duration-ms="19441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBing -->
+        <test-method signature="openWikipedia()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openWikipedia" finished-at="2025-09-10T20:13:52 IST" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWikipedia -->
+        <test-method signature="openJsonPlaceholderHome()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openJsonPlaceholderHome" finished-at="2025-09-10T20:13:53 IST" duration-ms="6725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJsonPlaceholderHome -->
+        <test-method signature="openGoogle_checkTitle()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openGoogle_checkTitle" finished-at="2025-09-10T20:13:53 IST" duration-ms="6649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle_checkTitle -->
+        <test-method signature="openGithub_home()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openGithub_home" finished-at="2025-09-10T20:14:08 IST" duration-ms="21270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGithub_home -->
+        <test-method signature="openExampleDotCom()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openExampleDotCom" finished-at="2025-09-10T20:14:05 IST" duration-ms="18149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openExampleDotCom -->
+        <test-method signature="openStackOverflow()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openStackOverflow" finished-at="2025-09-10T20:14:13 IST" duration-ms="25687" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.example.tests.ui.UiTests.openStackOverflow(UiTests.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openStackOverflow -->
+        <test-method signature="openDomainDotCom()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:47 IST" name="openDomainDotCom" finished-at="2025-09-10T20:14:08 IST" duration-ms="21473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDomainDotCom -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:52 IST" name="tearDown" finished-at="2025-09-10T20:14:06 IST" duration-ms="13733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:52 IST" name="tearDown" finished-at="2025-09-10T20:14:08 IST" duration-ms="15570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:53 IST" name="tearDown" finished-at="2025-09-10T20:14:08 IST" duration-ms="14584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:13:53 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="15360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:01 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="8192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:05 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="3968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:06 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:08 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:08 IST" name="tearDown" finished-at="2025-09-10T20:14:09 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ui.UiTests@3d74bf60]" started-at="2025-09-10T20:14:13 IST" name="tearDown" finished-at="2025-09-10T20:14:13 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.ui.UiTests -->
+    </test> <!-- API and UI Tests -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

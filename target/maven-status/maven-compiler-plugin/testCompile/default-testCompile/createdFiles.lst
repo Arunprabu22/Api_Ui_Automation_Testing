@@ -1,0 +1,3 @@
+com\example\tests\BaseTest.class
+com\example\tests\ui\UiTests.class
+com\example\tests\api\ApiTests.class

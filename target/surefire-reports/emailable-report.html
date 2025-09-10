@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parallel Suite</th></tr>
+<tr><td><a href="#t0">API and UI Tests</a></td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,442</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">API and UI Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.example.tests.ui.UiTests</td><td><a href="#m0">openStackOverflow</a></td><td rowspan="1">1757515427385</td><td rowspan="1">25687</td></tr><tr><th colspan="4">API and UI Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.example.tests.api.ApiTests</td><td><a href="#m1">checkPostTitleNotEmpty</a></td><td rowspan="1">1757515419070</td><td rowspan="1">10295</td></tr><tr class="passedeven"><td><a href="#m2">createPost_returns201</a></td><td rowspan="1">1757515419069</td><td rowspan="1">5462</td></tr><tr class="passedeven"><td><a href="#m3">getAlbums_status200</a></td><td rowspan="1">1757515419070</td><td rowspan="1">4640</td></tr><tr class="passedeven"><td><a href="#m4">getComments_post1</a></td><td rowspan="1">1757515419070</td><td rowspan="1">6176</td></tr><tr class="passedeven"><td><a href="#m5">getPostById_1</a></td><td rowspan="1">1757515419069</td><td rowspan="1">10183</td></tr><tr class="passedeven"><td><a href="#m6">getPosts_status200</a></td><td rowspan="1">1757515419070</td><td rowspan="1">4641</td></tr><tr class="passedeven"><td><a href="#m7">getTodos_status200</a></td><td rowspan="1">1757515419069</td><td rowspan="1">4642</td></tr><tr class="passedeven"><td><a href="#m8">getUserById_1</a></td><td rowspan="1">1757515419070</td><td rowspan="1">10182</td></tr><tr class="passedeven"><td><a href="#m9">getUsers_status200</a></td><td rowspan="1">1757515419069</td><td rowspan="1">4642</td></tr><tr class="passedeven"><td><a href="#m10">invalidEndpoint_404</a></td><td rowspan="1">1757515419070</td><td rowspan="1">5204</td></tr><tr class="passedodd"><td rowspan="9">com.example.tests.ui.UiTests</td><td><a href="#m11">navigateToAboutMozilla</a></td><td rowspan="1">1757515427034</td><td rowspan="1">5626</td></tr><tr class="passedodd"><td><a href="#m12">openBing</a></td><td rowspan="1">1757515427124</td><td rowspan="1">19441</td></tr><tr class="passedodd"><td><a href="#m13">openDomainDotCom</a></td><td rowspan="1">1757515427387</td><td rowspan="1">21473</td></tr><tr class="passedodd"><td><a href="#m14">openExampleDotCom</a></td><td rowspan="1">1757515427292</td><td rowspan="1">18149</td></tr><tr class="passedodd"><td><a href="#m15">openGithub_home</a></td><td rowspan="1">1757515427278</td><td rowspan="1">21270</td></tr><tr class="passedodd"><td><a href="#m16">openGoogle_checkTitle</a></td><td rowspan="1">1757515427238</td><td rowspan="1">6649</td></tr><tr class="passedodd"><td><a href="#m17">openJsonPlaceholderHome</a></td><td rowspan="1">1757515427142</td><td rowspan="1">6725</td></tr><tr class="passedodd"><td><a href="#m18">openWikipedia</a></td><td rowspan="1">1757515427141</td><td rowspan="1">5251</td></tr><tr class="passedodd"><td><a href="#m19">openYahoo</a></td><td rowspan="1">1757515427034</td><td rowspan="1">14098</td></tr></tbody>
+</table>
+<h2>API and UI Tests</h2><h3 id="m0">com.example.tests.ui.UiTests#openStackOverflow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.example.tests.ui.UiTests.openStackOverflow(UiTests.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.example.tests.api.ApiTests#checkPostTitleNotEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.example.tests.api.ApiTests#createPost_returns201</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.example.tests.api.ApiTests#getAlbums_status200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.example.tests.api.ApiTests#getComments_post1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.example.tests.api.ApiTests#getPostById_1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.example.tests.api.ApiTests#getPosts_status200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.example.tests.api.ApiTests#getTodos_status200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.example.tests.api.ApiTests#getUserById_1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.example.tests.api.ApiTests#getUsers_status200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.example.tests.api.ApiTests#invalidEndpoint_404</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.example.tests.ui.UiTests#navigateToAboutMozilla</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.example.tests.ui.UiTests#openBing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.example.tests.ui.UiTests#openDomainDotCom</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.example.tests.ui.UiTests#openExampleDotCom</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.example.tests.ui.UiTests#openGithub_home</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.example.tests.ui.UiTests#openGoogle_checkTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.example.tests.ui.UiTests#openJsonPlaceholderHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.example.tests.ui.UiTests#openWikipedia</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.example.tests.ui.UiTests#openYahoo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
